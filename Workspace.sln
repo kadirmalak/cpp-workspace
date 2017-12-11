@@ -183,6 +183,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{B4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprest-client-demo", "cpprest-client-demo\cpprest-client-demo.vcxproj", "{8F1C4732-7AE6-456F-82F6-12A73A08C09B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "odbc-demo", "odbc-demo\odbc-demo.vcxproj", "{999EA59B-3F67-411D-A327-ECBA05112305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -839,6 +841,14 @@ Global
 		{8F1C4732-7AE6-456F-82F6-12A73A08C09B}.Release|x64.Build.0 = Release|x64
 		{8F1C4732-7AE6-456F-82F6-12A73A08C09B}.Release|x86.ActiveCfg = Release|Win32
 		{8F1C4732-7AE6-456F-82F6-12A73A08C09B}.Release|x86.Build.0 = Release|Win32
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Debug|x64.ActiveCfg = Debug|x64
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Debug|x64.Build.0 = Debug|x64
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Debug|x86.ActiveCfg = Debug|Win32
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Debug|x86.Build.0 = Debug|Win32
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Release|x64.ActiveCfg = Release|x64
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Release|x64.Build.0 = Release|x64
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Release|x86.ActiveCfg = Release|Win32
+		{999EA59B-3F67-411D-A327-ECBA05112305}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -925,6 +935,7 @@ Global
 		{3D3CC3C9-5B13-4FA1-AA32-FAB8EFE3A66C} = {0F182E96-391D-492D-988E-EFD09EEEBD2A}
 		{01DEAEC8-F2CF-4508-8250-ABF471928FE5} = {0F182E96-391D-492D-988E-EFD09EEEBD2A}
 		{8F1C4732-7AE6-456F-82F6-12A73A08C09B} = {EFE55F5A-1F82-4B25-90AF-6FBCBD6F1ADB}
+		{999EA59B-3F67-411D-A327-ECBA05112305} = {84FEEB11-375D-4266-A83E-CFAB983AF1D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4BF472B-CDCC-467C-A365-88A6A5ADF847}
