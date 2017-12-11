@@ -23,7 +23,7 @@
     <ProjectGuid>{B1ABF1F0-3E07-4A3E-B3C6-B2DA3ACC4FC0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>PluralSight</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

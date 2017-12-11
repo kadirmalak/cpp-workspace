@@ -23,7 +23,7 @@
     <ProjectGuid>{DA5ED9BB-0997-4BAE-975E-5E317783B39E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CURLDemo</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

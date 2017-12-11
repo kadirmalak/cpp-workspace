@@ -17,7 +17,12 @@
 using namespace std;
 using namespace testing;
 using namespace testing::internal;
-using namespace kadir;
+using namespace kadirmalak;
+
+template <typename T>
+void println(T t) {
+	cout << t << endl;
+}
 
 class FunctionalTests : public Test {
 protected:
@@ -28,7 +33,7 @@ protected:
 };
 
 TEST_F(FunctionalTests, ListUsage) {
-	auto modified = fmap(l, [](const string & s) {
+	auto modified = f::map(l, [](const string & s) {
 		return s + "x";
 	});
 	ASSERT_EQ(l.size(), modified->size());
@@ -36,17 +41,17 @@ TEST_F(FunctionalTests, ListUsage) {
 }
 
 TEST_F(FunctionalTests, Filter) {
-	auto filtered = ffilter(l, [](const string & s) {
+	auto filtered = f::filter(l, [](const string & s) {
 		return s.length() > 3;
 	});
 	ASSERT_EQ(3, filtered->size());
 }
 
 TEST_F(FunctionalTests, FilterMap) {
-	auto filtered = ffilter(l, [](const string & s) {
+	auto filtered = f::filter(l, [](const string & s) {
 		return s.length() > 3;
 	});
-	auto newList = fmap(*filtered.get(), [](const string & s) {
+	auto newList = f::map(*filtered.get(), [](const string & s) {
 		return s + "x";
 	});
 	ASSERT_EQ(3, newList->size());
@@ -54,7 +59,7 @@ TEST_F(FunctionalTests, FilterMap) {
 ;}
 
 TEST_F(FunctionalTests, map) {
-	auto modified = fmap(v, [](const string & s) {
+	auto modified = f::map(v, [](const string & s) {
 		return s + "x";
 	});
 	ASSERT_TRUE(v.size() == modified->size());
@@ -62,7 +67,7 @@ TEST_F(FunctionalTests, map) {
 
 TEST_F(FunctionalTests, for_each) {
 	int i = 0;
-	ffor_each(v, [&i](const string & s) {
+	f::for_each(v, [&i](const string & s) {
 		i++;
 	});
 	ASSERT_EQ(v.size(), i);

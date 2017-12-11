@@ -23,7 +23,7 @@
     <ProjectGuid>{3A38DACD-F596-446F-BCFB-5E967DFD1D96}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Slicing</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

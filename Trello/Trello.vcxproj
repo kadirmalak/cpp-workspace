@@ -23,7 +23,7 @@
     <ProjectGuid>{19BE7817-F5F5-4C33-9720-42C9922042D8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Trello</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

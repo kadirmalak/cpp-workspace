@@ -23,7 +23,7 @@
     <ProjectGuid>{973C7189-DA1E-4533-A38A-8BD07D077337}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CRTFunctions</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

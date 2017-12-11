@@ -14,8 +14,7 @@ void println(const T & t) {
 	cout << t << endl;
 }
 
-class Turtle {
-public:
+struct Turtle {
 	virtual ~Turtle() {}
 	virtual void PenUp() = 0;
 	virtual void PenDown() = 0;
@@ -26,8 +25,7 @@ public:
 	virtual int GetY() const = 0;
 };
 
-class MockTurtle : public Turtle {
-public:
+struct MockTurtle : public Turtle {
 	MOCK_METHOD0(PenUp, void());
 	MOCK_METHOD0(PenDown, void());
 	MOCK_METHOD1(Forward, void(int distance));
@@ -40,6 +38,8 @@ public:
 class Program {
 public:
 	Program(Turtle & turtle) {
+		turtle.PenDown();
+		turtle.PenDown();
 		turtle.PenDown();
 	}
 };

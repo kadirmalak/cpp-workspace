@@ -23,7 +23,7 @@
     <ProjectGuid>{7ABB6982-40AC-477D-8E41-1E4CF6146F3B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DoubleAmp</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

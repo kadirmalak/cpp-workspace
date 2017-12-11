@@ -28,7 +28,8 @@ int main(void)
 
 	curl = curl_easy_init();
 	if (curl) {
-		curl_easy_setopt(curl, CURLOPT_URL, "https://api.trello.com/1/boards/bw9e78Bf/lists?cards=open&key=49e05d1c8b8d8bccb6d54d45828bcf8d&token=e61c1d50c3c9a1adf7001a11ca00243bc6b52e1d92240d771f98db414c70caa0");
+		curl_easy_setopt(curl, CURLOPT_URL, 
+			"https://api.trello.com/1/boards/bw9e78Bf/lists?cards=open&key=49e05d1c8b8d8bccb6d54d45828bcf8d&token=e61c1d50c3c9a1adf7001a11ca00243bc6b52e1d92240d771f98db414c70caa0");
 		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
 #ifdef SKIP_PEER_VERIFICATION
 		/*

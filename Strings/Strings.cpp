@@ -11,5 +11,7 @@ int main()
 {
 	cout << string{ "öçşığüÖÇŞİĞÜ" } << endl;
 
+	auto str = string{ "some " "string " "concatenated" };
+
     return 0;
 }
