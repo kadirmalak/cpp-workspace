@@ -1,6 +1,8 @@
 // MockDemo.cpp : Defines the entry point for the console application.
 //
 
+#define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING
+
 #include "stdafx.h"
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
